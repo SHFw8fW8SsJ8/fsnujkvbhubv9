@@ -1,0 +1,9 @@
+.ms-imgwrap{line-height:0;}
+.ms-imginr p{text-transform:initial;margin-top:22px;}
+@media(min-width:992px){
+  .media-section{display:flex;align-items:center;height:100%;margin-left:100px;}
+  .ms-img{display:flex;gap:24px;}
+}
+@media(max-width:991px){
+  .ms-imgwrap img{width:100%;}
+}

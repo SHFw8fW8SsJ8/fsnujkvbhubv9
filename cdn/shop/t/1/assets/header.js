@@ -1,0 +1,2 @@
+$(document).on("click",".menu-burger,.menu-drawer-close",function(e){e.preventDefault(),$("body").toggleClass("menu-open")}),$(document).on("click",".menu-drawer-close",function(e){e.preventDefault(),$("body").removeClass("menu-open")}),window.addEventListener("hashchange",()=>{const hash=window.location.hash.substring(1);console.log("Hash changed:",hash)});
+//# sourceMappingURL=/cdn/shop/t/1/assets/header.js.map?v=110990613734308381101705912827

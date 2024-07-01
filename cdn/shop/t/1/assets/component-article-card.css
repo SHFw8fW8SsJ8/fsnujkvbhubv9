@@ -1,0 +1,10 @@
+.snippet-article-card{background:var(--text-color);padding:12px;color:var(--background-color);}
+.art-cont{padding-top:12px;}
+.art-continr{display:grid;gap:125px;}
+.art-cont-top{font-size:14px;line-height:129.8%;display:flex;gap:20px;}
+.art-cont-top ul{width:30%;}
+.art-cont-top a{max-width:127px;}
+.art-cont-bottom a{font-size:14px;}
+@media(min-width:992px){
+  .art-cont-top,.art-cont-bottom a{font-size:12px;}
+}
