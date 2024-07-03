@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="/"><link rel="icon" type="image/png" href="ICon/1.png"><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin="">
+    <link rel="canonical" href="/"><link rel="icon" type="image/png" href="ICon/1.png">
     <title>Nienty</title>
 
     
@@ -220,39 +220,7 @@
     </div>
   </div>
 </div><script src="cdn/shop/t/1/assets/header.js?v=110990613734308381101705912827" defer="defer"></script>
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "Nienty",
-    
-    "sameAs": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "url": "https:\/\/nienty.zapto.org"
-  }
-</script>
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "Nienty",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https:\/\/nienty.zapto.org\/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      "url": "https:\/\/nienty.zapto.org"
-    }
-  </script></div>
+</div>
 <!-- END sections: header-group -->
 
 
@@ -449,18 +417,7 @@
     </div>
   </div>
 </section>
-<script>
-  $(document).on('mouseenter','.mnda-listinr a',function(){
-    $(this).closest('.mnda-listinr').addClass('active').siblings('.mnda-listinr').removeClass('active');
-    var title = $(this).attr('data-val');
-    $('.mnda-mediainr').each(function(){
-      var active_title = $(this).attr('data-val');
-      if(active_title == title){
-        $(this).addClass('active').siblings('.mnda-mediainr').removeClass('active');
-      }
-    });
-  })
-</script>
+
 
 
 
@@ -527,38 +484,7 @@
 </div></div>
     </div>
   </div>
-</section><script src="flickity%402.3.0/dist/flickity.pkgd.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  if(document.querySelector(".twl-slider") != null){
-    let tickerSpeed = 1.5;
-    let flickity = null;
-    let isPaused = false;
-    const slideshowEl = document.querySelector(".twl-slider");
-    const update = () => {
-      if (isPaused) return;
-      if (flickity.slides) {
-        flickity.x = (flickity.x - tickerSpeed) % flickity.slideableWidth;
-        flickity.selectedIndex = flickity.dragEndRestingSelect();
-        flickity.updateSelectedSlide();
-        flickity.settle(flickity.x);
-      }
-      window.requestAnimationFrame(update);
-    };
-    flickity = new Flickity(slideshowEl, {
-      autoPlay: false,
-      prevNextButtons: false,
-      pageDots: false,
-      draggable: true,
-      freeScroll: true,
-      wrapAround: true,
-      selectedAttraction: 0.015,
-      friction: 0.25
-    });
-    update();
-  }
-});
-</script>
+</section>
 
 
 
@@ -592,46 +518,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <li id="a11y-new-window-message">Opens in a new window.</li>
     </ul>
 
-    <script>
-      window.shopUrl = 'https://nienty.zapto.org';
-      window.routes = {
-        cart_add_url: '/cart/add',
-        cart_change_url: '/cart/change',
-        cart_update_url: '/cart/update',
-        cart_url: '/cart',
-        predictive_search_url: '/search/suggest',
-      };
-
-      window.cartStrings = {
-        error: `There was an error while updating your cart. Please try again.`,
-        quantityError: `You can only add [quantity] of this item to your cart.`,
-      };
-
-      window.variantStrings = {
-        addToCart: `Add to cart`,
-        soldOut: `Sold out`,
-        unavailable: `Unavailable`,
-        unavailable_with_option: `[value] - Unavailable`,
-      };
-
-      window.quickOrderListStrings = {
-        itemsAdded: `[quantity] items added`,
-        itemAdded: `[quantity] item added`,
-        itemsRemoved: `[quantity] items removed`,
-        itemRemoved: `[quantity] item removed`,
-        viewCart: `View cart`,
-        each: `[money]/ea`,
-      };
-
-      window.accessibilityStrings = {
-        imageAvailable: `Image [index] is now available in gallery view`,
-        shareSuccess: `Link copied to clipboard`,
-        pauseSlideshow: `Pause slideshow`,
-        playSlideshow: `Play slideshow`,
-        recipientFormExpanded: `Gift card recipient form expanded`,
-        recipientFormCollapsed: `Gift card recipient form collapsed`,
-      };
-    </script>
-    <script async="" type="text/javascript" src="onsite/js/klaviyo-1.js?company_id=TKiZnM"></script>
+   
     <script src="media/js/onsite/onsite.js"></script></body>
 </html>
